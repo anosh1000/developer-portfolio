@@ -113,11 +113,11 @@ export default function HomePage() {
           Available for collaborations
         </p>
         <h1 className="animate-fade-up mt-4 max-w-3xl text-4xl font-semibold tracking-tight text-foreground opacity-0 [animation-delay:80ms] sm:text-5xl lg:text-6xl">
-          I build fast, accessible websites and resilient systems.
+          I build websites
         </h1>
         <p className="animate-fade-up mt-6 max-w-2xl text-lg text-muted-foreground opacity-0 [animation-delay:160ms]">
-          Full-stack engineer focused on user experience, performance, and
-          thoughtful UX. Always somewhere with tasty food and unreliable Wi-Fi.
+          FullStack engineer focused on user experience, performance, and
+          thoughtful UX
         </p>
         <div className="animate-fade-up mt-10 flex flex-wrap gap-3 opacity-0 [animation-delay:240ms]">
           <Button asChild size="lg">
@@ -166,8 +166,7 @@ export default function HomePage() {
                 Featured projects
               </h2>
               <p className="mt-2 max-w-xl text-muted-foreground">
-                A few highlights from recent work. (Swap in your repos, case
-                studies, and live demos when you are ready.)
+                A few highlights from recent work.
               </p>
             </div>
             <Button asChild variant="ghost" className="self-start sm:self-auto">
@@ -318,7 +317,7 @@ export default function HomePage() {
           <CardHeader className="space-y-2">
             <CardTitle className="text-2xl">Contact</CardTitle>
             <CardDescription className="text-base text-muted-foreground">
-              Get in touch with me. I typically reply within two business days.
+              Get in touch with me. I will reply ASAP.
             </CardDescription>
           </CardHeader>
           <CardContent className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
