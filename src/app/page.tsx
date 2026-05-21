@@ -29,7 +29,7 @@ const featuredProjects = [
   {
     title: "ReAct Chatbot",
     description:
-      "Built a ReAct AI chatbot that combines reasoning and tool use to iteratively plan, execute actions, and generate more accurate responses.",
+      "Built a ReAct AI chatbot that combines reasoning and tool use to iteratively plan, execute actions, and generate more accurate responses. Implemented conversational memory and context handling to improve multi-step reasoning throughout extended interactions.",
     stack: ["JavaScript", "OpenAI’s API"],
     githubHref: "#",
     demoHref: "#",
@@ -44,15 +44,15 @@ const featuredProjects = [
     demoHref: "https://dashboard-anosh.netlify.app/",
     accent: "from-cyan-500/25 to-emerald-500/10",
   },
-  {
-    title: "Lorem Ipsum",
-    description:
-      "Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    stack: ["Enim", "Ad", "Minim"],
-    githubHref: "#",
-    demoHref: "#",
-    accent: "from-amber-500/25 to-orange-500/10",
-  },
+  // {
+  //   title: "Lorem Ipsum",
+  //   description:
+  //     "Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  //   stack: ["Enim", "Ad", "Minim"],
+  //   githubHref: "#",
+  //   demoHref: "#",
+  //   accent: "from-amber-500/25 to-orange-500/10",
+  // },
 ] as const;
 
 const experience = [
@@ -208,7 +208,7 @@ export default function HomePage() {
                         className="w-full cursor-not-allowed px-2 text-xs opacity-50"
                         disabled
                       >
-                        GitHub Soon
+                        In Progress
                       </Button>
                     ) : (
                       <Button asChild variant="secondary" className="w-full px-2 text-xs">
