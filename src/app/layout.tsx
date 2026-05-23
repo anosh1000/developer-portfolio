@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { DM_Sans, JetBrains_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 
 import { SiteNavbar } from "@/components/site-navbar";
 
@@ -35,6 +36,7 @@ export default function RootLayout({
       >
         <SiteNavbar />
         <main>{children}</main>
+        <Analytics />
       </body>
     </html>
   );
