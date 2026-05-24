@@ -24,6 +24,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
+import { AnalyticsCard } from "@/components/analytics-card";
 
 const featuredProjects = [
   {
@@ -350,6 +351,8 @@ export default function HomePage() {
           </CardContent>
         </Card>
       </section>
+
+      <AnalyticsCard />
 
       <footer className="border-t border-border py-8 text-center text-sm text-muted-foreground">
         <p>© {new Date().getFullYear()} Anosh Taraporevala. Built with Next.js, Tailwind

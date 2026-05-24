@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { DM_Sans, JetBrains_Mono } from "next/font/google";
+<<<<<<< HEAD
 import { Analytics } from "@vercel/analytics/next";
+=======
+import Script from "next/script";
+>>>>>>> b796360 (Portfolio Analytics)
 
 import { SiteNavbar } from "@/components/site-navbar";
 
@@ -36,7 +40,14 @@ export default function RootLayout({
       >
         <SiteNavbar />
         <main>{children}</main>
+<<<<<<< HEAD
         <Analytics />
+=======
+        <Script
+          src="https://scripts.simpleanalyticscdn.com/latest.js"
+          strategy="afterInteractive"
+        />
+>>>>>>> b796360 (Portfolio Analytics)
       </body>
     </html>
   );
