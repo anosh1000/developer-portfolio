@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-const REVALIDATE_SECONDS = 60 * 60;
+const REVALIDATE_SECONDS = 60 * 5;
 
 type SimpleAnalyticsStats = {
   pageviews?: unknown;
