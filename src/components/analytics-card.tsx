@@ -69,7 +69,7 @@ export function AnalyticsCard() {
               Site analytics
             </p>
           </div>
-          <CardTitle className="text-2xl">Portfolio traffic (48 Hours to Update)</CardTitle>
+          <CardTitle className="text-2xl">Portfolio traffic</CardTitle>
         </CardHeader>
         <CardContent>
           {isLoading ? (
